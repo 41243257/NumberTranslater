@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-dc9c6cbe0725654f3fa4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "NumberTranslater",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "NumberTranslater::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NumberTranslater-Debug-97e553094b870b49d2db.json",
+					"name" : "NumberTranslater",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NumberTranslater_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NumberTranslater_autogen-Debug-089820d60700f07ef62d.json",
+					"name" : "NumberTranslater_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "NumberTranslater_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-NumberTranslater_autogen_timestamp_deps-Debug-ad448ed9f7f09875c521.json",
+					"name" : "NumberTranslater_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/user/Desktop/1014/NumberTranslater/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug",
+		"source" : "C:/Users/user/Desktop/1014/NumberTranslater"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

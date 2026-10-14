@@ -1,0 +1,9 @@
+C:/Users/user/Desktop/1014/NumberTranslater/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/CMakeFiles/NumberTranslater.dir
+C:/Users/user/Desktop/1014/NumberTranslater/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/CMakeFiles/edit_cache.dir
+C:/Users/user/Desktop/1014/NumberTranslater/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/user/Desktop/1014/NumberTranslater/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/CMakeFiles/list_install_components.dir
+C:/Users/user/Desktop/1014/NumberTranslater/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/CMakeFiles/install.dir
+C:/Users/user/Desktop/1014/NumberTranslater/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/CMakeFiles/install/local.dir
+C:/Users/user/Desktop/1014/NumberTranslater/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/CMakeFiles/install/strip.dir
+C:/Users/user/Desktop/1014/NumberTranslater/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/CMakeFiles/NumberTranslater_autogen_timestamp_deps.dir
+C:/Users/user/Desktop/1014/NumberTranslater/build/Desktop_Qt_6_11_2_MinGW_64_bit_Debug/CMakeFiles/NumberTranslater_autogen.dir
