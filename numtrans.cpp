@@ -34,6 +34,56 @@ NumTrans::NumTrans(QWidget *parent)
     QPushButton* exitButton = new QPushButton("Exit");
     buttonLayout->addStretch();
     buttonLayout->addWidget(exitButton);
+
+    connect(exitButton,SIGNAL(clicked()),this,SLOT(accept()));
+    connect(decEdit,SIGNAL(textChanged(const QString&)),
+            this,SLOT(decChanged(const QString&)));
+    connect(hexEdit,SIGNAL(textChanged(const QString&)),
+            this,SLOT(hexChanged(const QString&)));
+    connect(binEdit,SIGNAL(textChanged(const QString&)),
+            this,SLOT(binChanged(const QString&)));
 }
 
 NumTrans::~NumTrans() = default;
+void NumTrans :: decChanged (const QString& newValue){
+    bool ok;//紀錄轉換是否成功?
+    int num = newValue.toInt(&ok,10);
+    if(ok)
+    {
+        hexEdit->setText(QString::number(num,16));//<---是字串
+        binEdit->setText(QString::number(num,2));
+    }else
+    {
+        hexEdit->setText("");
+        binEdit->setText("");
+
+    }
+}
+void NumTrans :: hexChanged (const QString& newValue){
+    bool ok;//紀錄轉換是否成功?
+    int num = newValue.toInt(&ok,16);
+    if(ok)
+    {
+        decEdit->setText(QString::number(num,10));//<---是字串
+        binEdit->setText(QString::number(num,2));
+    }else
+    {
+        decEdit->setText("");
+        binEdit->setText("");
+
+    }
+}
+void NumTrans :: binChanged (const QString& newValue){
+    bool ok;
+    int num = newValue.toInt(&ok,2);
+    if(ok)
+    {
+        hexEdit->setText(QString::number(num,16));//<---是字串
+        decEdit->setText(QString::number(num,10));
+    }else
+    {
+        hexEdit->setText("");
+        decEdit->setText("");
+
+    }
+}
