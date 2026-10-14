@@ -54,8 +54,8 @@ void NumTrans :: decChanged (const QString& newValue){
         binEdit->setText(QString::number(num,2));
     }else
     {
-        hexEdit->setText("");
-        binEdit->setText("");
+        hexEdit->setText("??");
+        binEdit->setText("??");
 
     }
 }
@@ -68,8 +68,8 @@ void NumTrans :: hexChanged (const QString& newValue){
         binEdit->setText(QString::number(num,2));
     }else
     {
-        decEdit->setText("");
-        binEdit->setText("");
+        decEdit->setText("??");
+        binEdit->setText("??");
 
     }
 }
@@ -82,8 +82,8 @@ void NumTrans :: binChanged (const QString& newValue){
         decEdit->setText(QString::number(num,10));
     }else
     {
-        hexEdit->setText("");
-        decEdit->setText("");
+        hexEdit->setText("??");
+        decEdit->setText("??");
 
     }
 }
